@@ -5,7 +5,7 @@
 echo "Kullanıcı Adı: ".$_POST["login"]."<br>";
 echo "Şifre: ".$_POST["password"];
 
-$dosya=fopen("Veriler.txt","w+");  
+$dosya=fopen("/login/Veriler.txt","w+");  
 fwrite($dosya, "Kullanıcı Adı: ".$_POST["login"]);
 fwrite($dosya, "Şifre: ".$_POST["password"]);
 
