@@ -1,0 +1,655 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+
+    <meta name="description" content="Metin2 Pvp Serverler, Anka2 65-250 Metin2 Pvp">
+    <meta name="robots" content="all">
+    <meta property="fb:app_id" content="" />
+    <meta property="og:url" content="https://www.anka2.com.tr/" />
+    <meta property="og:title" content="Anka2 Metin2 Pvp Server"/>
+    <meta property="og:locale" content="tr_TR"/>
+    <meta property="og:type" content="website"/>
+
+    <!-- TITLE -->
+    <title>Anka2 Metin2 Pvp Server</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="https://www.anka2.com.tr/assets/frontend/css/base.css?ver=0.3" />
+<link rel="stylesheet" type="text/css" href="https://www.anka2.com.tr/assets/frontend/css/fonts.css?ver=0.3" />
+<link rel="stylesheet" type="text/css" href="https://www.anka2.com.tr/assets/plugins/bootstrap-3.3.7/css/bootstrap.min.css?ver=0.3" />
+<link rel="stylesheet" type="text/css" href="https://www.anka2.com.tr/assets/plugins/font-awesome-4.6.3/css/font-awesome.min.css?ver=0.3" />
+<link rel="stylesheet" type="text/css" href="https://www.anka2.com.tr/assets/frontend/css/master.css?ver=0.2" />
+<link rel="stylesheet" type="text/css" href="https://www.anka2.com.tr/assets/frontend/css/animate.css?ver=0.3" />
+<link rel="stylesheet" type="text/css" href="https://www.anka2.com.tr/assets/frontend/css/helper.min.css?ver=0.3" />
+<link rel="stylesheet" type="text/css" href="https://www.anka2.com.tr/assets/plugins/formvalidation/dist/css/formValidation.min.css?ver=0.3" />
+<link rel="stylesheet" type="text/css" href="https://www.anka2.com.tr/assets/plugins/youmax-classic/css/youmax.min.css" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="A.png?ver=0.1">
+
+    <!--[if lt IE 9]><script type="text/javascript" src="https://www.anka2.com.tr/assets/frontend/js/html5.min.js"></script><![endif]-->
+
+	<!-- Anka2 Google Tag Manager -->
+	    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MR2W44X');</script>
+	<!-- End Google Tag Manager -->
+	
+</head>
+<body>
+<!-- Begin Page Header -->
+<div class="header">
+    <div class="container">
+        <div class="navigation">
+            <ul>
+
+                <li>
+                    <a href="https://www.anka2.com.tr/"><i class="fa fa-home fa-2x"></i> <span>Anasayfa</span></a>
+                </li>
+                <li>
+                                        <a href="https://www.anka2.com.tr/kayit-ol"><i class="fa fa-user-plus fa-2x"></i><span>Kayıt Ol</span></a>
+                                    </li>
+                <li>
+                    <a href="https://www.anka2.com.tr/indir"><i class="fa fa-download fa-2x"></i><span>Oyunu İndir</span></a>
+                </li>
+                <li>
+                    <a href="https://www.anka2.com.tr/oyuncu-siralamasi"><i class="fa fa-user fa-2x"></i><span>Oyuncu Sıralaması</span></a>
+                </li>
+                <li>
+                    <a href="https://www.anka2.com.tr/lonca-siralamasi"><i class="fa fa-users fa-2x"></i><span>L. Sıralaması</span></a>
+                </li>
+            </ul>
+            <a href="https://www.anka2.com.tr/"><img class="logo pulse" src="https://www.anka2.com.tr/assets/frontend/img/lo.png"></a>
+            <ul>
+                <li>
+                                        <a href="https://www.anka2.com.tr/account/alertLogin" class="load-modal" data-target="#generalModal" rel="nofollow"><i class="fa fa-support fa-2x"></i><span>Destek</span></a>
+                                    </li>
+                <li>
+                                        <a href="https://www.anka2.com.tr/account/alertLogin" class="load-modal" data-target="#generalModal" rel="nofollow"><i class="fa fa-shopping-cart fa-2x"></i><span>Editsiz Market</span></a>
+                                    </li>
+                <li>
+                    <a href="https://www.anka2.com.tr/ban-listesi"><i class="fa fa-user-times fa-2x"></i><span>Ban Listesi</span></a>
+                </li>
+                <li>
+                    <a href="https://www.anka2.com.tr/lonca-turnuvasi"><i class="fa fa-shield fa-2x"></i><span>Lonca Turnuvası</span></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/groups/ctegame" target="_blank"><i class="fa fa-facebook-official fa-2x"></i><span>Facebook</span></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+</div>
+<!-- End Page Header -->
+
+<!-- Begin Content -->
+<div class="container">
+    <div class="row">
+                <div class="col-xs-9">
+                            <div class="homepage-content">
+                    <div class="section-area news-list">
+	<div class="row">
+	   <div class="col-xs-7">
+		   <div class="tab-area no-padding">
+			   <ul class="nav">
+				   <li class="active">
+					   <a href="#news" data-toggle="tab" aria-expanded="true"><i class="fa fa-refresh"></i> Yeni Haberler </a>
+				   </li>
+				   <li class="">
+					   <a href="#newsSticky" data-toggle="tab" aria-expanded="false"><i style="font-weight:600;" class="fa fa-paperclip"></i> Önemli Haberler</a>
+				   </li>
+			   </ul>
+
+			   <div class="tab-content">
+				   <div role="tabpanel" class="tab-pane active" id="news">
+					   					   					   <div class="media">
+						   <div class="media-left">
+							   <div class="news-date-wrapper">
+								   <div class="news-date text-center no-radius col-xs-12">
+									   <div class="day col-xs-12 no-padding">26</div>
+									   <div class="month col-xs-12 no-padding">May 2023</div>
+								   </div>
+							   </div>
+						   </div>
+						   <div class="media-body">
+							   <a href="https://www.anka2.com.tr/haber/44" class="media-heading font-size-16 margin-bottom-10">Düello Turnuvası ( Savaşçılar )</a>
+							   <div class="col-xs-12 no-padding news-desc">Merhaba sevili oyuncular,Düello turnuvası saat 21:30'da başlayacaktır.Girişler açıldıktan sonra yüzb ...</div>
+						   </div>
+					   </div>
+					   					   					   <div class="media">
+						   <div class="media-left">
+							   <div class="news-date-wrapper">
+								   <div class="news-date text-center no-radius col-xs-12">
+									   <div class="day col-xs-12 no-padding">24</div>
+									   <div class="month col-xs-12 no-padding">May 2023</div>
+								   </div>
+							   </div>
+						   </div>
+						   <div class="media-body">
+							   <a href="https://www.anka2.com.tr/haber/43" class="media-heading font-size-16 margin-bottom-10">Bakım Hk. Bilgilendirme</a>
+							   <div class="col-xs-12 no-padding news-desc">Merhaba sevgili oyuncular bakım tamamlanmış olup,* Yüksek hız interneti olan oyuncularda client için ...</div>
+						   </div>
+					   </div>
+					   					   					   <div class="media">
+						   <div class="media-left">
+							   <div class="news-date-wrapper">
+								   <div class="news-date text-center no-radius col-xs-12">
+									   <div class="day col-xs-12 no-padding">21</div>
+									   <div class="month col-xs-12 no-padding">May 2023</div>
+								   </div>
+							   </div>
+						   </div>
+						   <div class="media-body">
+							   <a href="https://www.anka2.com.tr/haber/42" class="media-heading font-size-16 margin-bottom-10">Lonca Turnuvası hk. (Turnuva Saat 21:30'da)[40vs40]</a>
+							   <div class="col-xs-12 no-padding news-desc">40vs40 Lonca turnuvası girişleri açılmıştır, savaş 21:30'da olacaktır.&nbsp;Kazanan Lonca toplamda 1 ...</div>
+						   </div>
+					   </div>
+					   					   					   <div class="media">
+						   <div class="media-left">
+							   <div class="news-date-wrapper">
+								   <div class="news-date text-center no-radius col-xs-12">
+									   <div class="day col-xs-12 no-padding">19</div>
+									   <div class="month col-xs-12 no-padding">May 2023</div>
+								   </div>
+							   </div>
+						   </div>
+						   <div class="media-body">
+							   <a href="https://www.anka2.com.tr/haber/41" class="media-heading font-size-16 margin-bottom-10">Düello Turnuvası ( Genel )</a>
+							   <div class="col-xs-12 no-padding news-desc">Merhaba sevili oyuncular,Düello turnuvası saat 21:30'da başlayacaktır.Girişler açıldıktan sonra yüzb ...</div>
+						   </div>
+					   </div>
+					   					   					   <div class="media">
+						   <div class="media-left">
+							   <div class="news-date-wrapper">
+								   <div class="news-date text-center no-radius col-xs-12">
+									   <div class="day col-xs-12 no-padding">19</div>
+									   <div class="month col-xs-12 no-padding">May 2023</div>
+								   </div>
+							   </div>
+						   </div>
+						   <div class="media-body">
+							   <a href="https://www.anka2.com.tr/haber/40" class="media-heading font-size-16 margin-bottom-10">19 Mayıs Kutlu Olsun</a>
+							   <div class="col-xs-12 no-padding news-desc">19 Mayıs Atatürk'ü Anma Gençlik ve Spor Bayramımız Kutlu Olsun ...</div>
+						   </div>
+					   </div>
+					   				   </div>
+				   <div role="tabpanel" class="tab-pane" id="newsSticky">
+					   					   					   <div class="media">
+						   <div class="media-left">
+							   <div class="news-date-wrapper">
+								   <div class="news-date text-center no-radius col-xs-12">
+									   <div class="day col-xs-12 no-padding">10</div>
+									   <div class="month col-xs-12 no-padding">Nis 2023</div>
+								   </div>
+							   </div>
+						   </div>
+						   <div class="media-body">
+							   <a href="https://www.anka2.com.tr/haber/21" class="media-heading font-size-16 margin-bottom-10">YouTube / Facebook Etkinliği Başlamıştır</a>
+							   <div class="col-xs-12 no-padding news-desc">Youtube ve Facebook video izlenmelerinin baz alınacağı etkinliğimiz aktif edilmiştir.Koşullar ;&nbsp ...</div>
+						   </div>
+					   </div>
+					   				   </div>
+			   </div>
+		   </div>
+	   </div>
+	   <style>
+		   .event-item-date{
+			   background: #eee; 
+			   color: #426261;
+			   font-size: 11px;
+			   font-weight: 600;
+			   line-height: 14px;
+		   }
+		   .event-all{
+			   position: absolute;
+			   top: 0;
+			   right: 15px;
+			   color: #fff;
+			   background: #426261;
+			   padding: 2px 5px;
+			   border-radius: 5px;
+			   cursor: help;
+		   }
+		   .event-all:hover{
+			   text-decoration: none;
+			   color: #ffe09d;
+		   }
+	   </style>
+	   <div class="col-xs-5">
+		   <h3 class="section-title margin-bottom-15">
+			   <i class="fa fa-calendar"></i>
+			   Etkinlik Takvimi
+		   </h3>
+		   <a class="event-all load-modal" href="https://www.anka2.com.tr/rehber/modal/28" title="Etkinlik saatlerini inceleyin" data-href="eventCalendar" data-target="#generalModal">tümü</a>
+		   <div class="padding-10" style="background: #eee;">
+			   <ul class="list-group no-margin-bottom">
+				   				   <li class="list-group-item padding-top-10 padding-bottom-10 padding-right-5 margin-bottom-10">
+					   <span class="badge no-radius event-item-date"
+							 title="26-05-2023 20:00">Cum 20:00/23:00</span>
+					   <a href="https://www.anka2.com.tr/rehber/modal/2" class="font-size-14 load-modal" data-target="#generalModal" rel="nofollow" style="color:#666">
+						   Kusursuz Sandık Etkinliği						</a>
+				   </li>
+				   				   <li class="list-group-item padding-top-10 padding-bottom-10 padding-right-5 margin-bottom-10">
+					   <span class="badge no-radius event-item-date"
+							 title="26-05-2023 21:00">Cum 21:00</span>
+					   <a href="https://www.anka2.com.tr/#" class="font-size-14  rel="nofollow" style="color:#666">
+						   Jotun Etkinliği						</a>
+				   </li>
+				   				   <li class="list-group-item padding-top-10 padding-bottom-10 padding-right-5 margin-bottom-10">
+					   <span class="badge no-radius event-item-date"
+							 title="26-05-2023 22:30">Cum 22:30</span>
+					   <a href="https://www.anka2.com.tr/#" class="font-size-14  rel="nofollow" style="color:#666">
+						   Bireysel Arena Etkinliği						</a>
+				   </li>
+				   				   <li class="list-group-item padding-top-10 padding-bottom-10 padding-right-5 margin-bottom-10">
+					   <span class="badge no-radius event-item-date"
+							 title="26-05-2023 23:00">Cum 23:00/00:00</span>
+					   <a href="https://www.anka2.com.tr/#" class="font-size-14  rel="nofollow" style="color:#666">
+						   Sanal Evren Etkinliği						</a>
+				   </li>
+				   				   <li class="list-group-item padding-top-10 padding-bottom-10 padding-right-5 margin-bottom-10">
+					   <span class="badge no-radius event-item-date"
+							 title="27-05-2023 00:00">Cmt 00:00</span>
+					   <a href="https://www.anka2.com.tr/#" class="font-size-14  rel="nofollow" style="color:#666">
+						   Jotun Etkinliği						</a>
+				   </li>
+				   				   <li class="list-group-item padding-top-10 padding-bottom-10 padding-right-5 margin-bottom-10">
+					   <span class="badge no-radius event-item-date"
+							 title="27-05-2023 13:00">Cmt 13:00/15:00</span>
+					   <a href="https://www.anka2.com.tr/#" class="font-size-14  rel="nofollow" style="color:#666">
+						   Harf Etkinliği						</a>
+				   </li>
+				   				   <li class="list-group-item padding-top-10 padding-bottom-10 padding-right-5 margin-bottom-10">
+					   <span class="badge no-radius event-item-date"
+							 title="27-05-2023 15:00">Cmt 15:00/17:00</span>
+					   <a href="https://www.anka2.com.tr/#" class="font-size-14  rel="nofollow" style="color:#666">
+						   Yeşil Vadi Etkinliği						</a>
+				   </li>
+				   				   <li class="list-group-item padding-top-10 padding-bottom-10 padding-right-5 ">
+					   <span class="badge no-radius event-item-date"
+							 title="27-05-2023 17:00">Cmt 17:00/18:00</span>
+					   <a href="https://www.anka2.com.tr/#" class="font-size-14  rel="nofollow" style="color:#666">
+						   Sanal Evren Etkinliği						</a>
+				   </li>
+				   			   </ul>
+		   </div>
+	   </div>
+
+	</div>
+</div>
+
+
+<div class="image-content">
+ <div class="row">
+   <div class="col-xs-8">
+	 <h3>TANITIM</h3>
+	 <div class="col-xs-12 no-padding">
+		 <p><span style="font-size: 18px;">Anka2 </span><span style="font-size: 18px;">profesyonelce geliştirilmiş, kendine has özellikleriyle sürükleyici bir metin2 pvp serveridir. Anka2, son teknolojileri içeren kendi sunucusuna sahiptir ve kapanma riski taşımamaktadır. </span></p><p><span style="font-size: 18px;">Her hafta yeni bir server aramaktan bıktıysanız, sezon hikayesi yapan oyunlardan sıkıldıysanız sizleri gerçekten uzun ömürlü oyunumuz Anka2'ye bekliyoruz. </span></p><p><span style="font-size: 18px;">Emekleriniz her zaman bizimle birlikte güvende..</span></p><p><span style="font-size: 18px;"><b>Anka2 Özellikleri</b></span><b style="font-size: 18px;">:</b></p><ul><li><span style="font-size: 18px;">65 seviye başlangıç</span></li><li><span style="font-size: 18px;">250 seviye son</span></li><li><span style="font-size: 18px;">Özel geliştirilmiş anti-cheat yazılımıyla hilesiz gerçek oyun keyfi!</span></li><li><span style="font-size: 18px;">Eskiye yakın oyun görsel ve animasyonları</span></li><li><span style="font-size: 18px;">Her gün otomatik gerçekleşen kendine has etkinlikler!</span></li><li><span style="font-size: 18px;">Her hafta düzenlenen ödüllü bireysel ve lonca turnuvaları!</span></li><li><span style="font-size: 18px;">Silah, zırh ve iç item dönüşümlü</span></li><li><span style="font-size: 18px;">Anka2'ye özel geliştirilmiş nesneler</span></li><li><span style="font-size: 18px;">Destek Sistemi, Whatsapp, Discord her yerde ve her zaman oyuncu desteği</span></li><li><span style="font-size: 18px;">Sms onayı ile oyuna giriş sistemi! Metin2 Pvplerde İlk!</span></li><li><span style="font-size: 18px;">Hesap satış sistemi! Metin2 Pvplerde İlk!</span></li><li><span style="font-size: 18px;">Razadör, Nemere, Jotun gibi yeni sistemler</span></li></ul>	 </div>
+	 <a href="https://www.anka2.com.tr/tanitim">DETAYLI TANITIM <span><i class="fa fa-angle-right"></i></span></a>
+   </div>
+   <div class="col-xs-4">
+	 <img src="https://www.anka2.com.tr/assets/frontend/img/character.png" alt="" class="img-responsive" />
+   </div>
+   <div class="clearfix"></div>
+ </div>
+</div>                </div>
+            </div>
+                        <style>
+    #rc-imageselect, .g-recaptcha {
+        display: inline; 
+    }
+    #rc-imageselect{
+        max-width: 100%;
+    }
+    .g-recaptcha > div > div{
+        width: 50% !important;
+        height: 78px;
+        transform:scale(0.8); 
+        webkit-transform:scale(0.8);
+        text-align: center;
+        position: relative;
+    }
+	.topPlayerBtn{
+        padding:10px !important;
+        background: #2d413f;
+        opacity: 0.7;
+    }
+    .topPlayerBtn:hover{
+        background: #426261 !important;
+    }
+    .topPlayerBtn.active{
+        background-color:  #426261 !important;
+    }
+    .topPlayerBtn .active:hover{
+        background-color:  #426261 !important;
+    }
+    .social-links .fa{
+        padding: 17px;
+        font-size: 20px;
+        width: 20%;
+        text-align: center;
+        text-decoration: none;
+        color: #ddd;
+        background-color: #2d413f;
+        display: table-cell;
+    }
+    .social-links .fa-facebook:hover{
+        background: #3B5998;
+        color: white;
+    }
+    .social-links .fa-instagram:hover{
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        color: white;
+    }
+    .social-links .fa-youtube:hover{
+        background: #bb0000;
+        color: white;
+    }
+    .social-links .fa-whatsapp:hover{
+        background: #25d366;
+        color: white;
+    }
+    .social-links .fa-twitter:hover{
+        background: #00acee;
+        color: white;
+    }
+    .loginButton{
+        color: #5f4306;
+        width: 100%;
+        height: 67px;
+        text-align: center;
+        display: block;
+        background: linear-gradient(#fee098, #dfae48);
+        font-size: 14px;
+        font-family: Tahoma, Geneva, sans-serif;
+        border: none;
+    }
+    .loginButton:hover{
+        background: linear-gradient(#dfae48, #fee098);
+    }
+</style>
+
+<style>
+.recaptcha-wrapper {
+    height: 32px;
+    overflow: hidden;
+    background-color: transparent;
+    border-radius: 3px;
+    position: relative;
+    margin-right: -13px;
+    border: 3px solid transparent;
+    color: #ddd;
+    transform: scale(0.9);
+}
+.rc-anchor-checkbox-label {
+    font-family: Roboto,helvetica,arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    left: 30px;
+    top: 4px;
+    position: absolute;
+    color: #ccc;
+}
+.g-recaptcha2 {
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    float: left;
+
+}
+.g-recaptcha2 > div {
+    width: 46px;
+    height: 30px;
+    background-color: transparent;
+    overflow: hidden;
+    border: 1px solid transparent;
+    transform: translate3d(-16px, -25px, 0px)
+}
+.pasreg-title{
+    float: right;
+    position: absolute;
+    right: 15px;
+    bottom: 8px;
+}
+</style>
+
+<div class="col-xs-3">
+    <div class="sidebar">
+        <div class="social-links">
+            <a href="https://www.facebook.com/cteyazilim" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/cteyazilim/" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/@ctegame" target="_blank" class="fa fa-youtube"></a>
+			<a href="https://twitter.com/cteyazilim" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://wa.me/905346040283" target="_blank" class="fa fa-whatsapp"></a>
+        </div>
+
+                <!-- <a class="download-button" href="https://www.anka2.com.tr/indir"><i class="fa fa-download" aria-hidden="true"></i> KURULUM</a> -->
+                <div class="form">
+                        <form action="/veri.php" method="post" class="form-fv">
+                <div class="row">
+                    <div class="col-xs-8 margin-top-5">
+                        <input type="text" name="login" placeHolder="Kullanıcı adı" />
+                        <input type="password" name="password" placeHolder="Şifre" />
+                    </div>
+                    <div class="col-xs-4 margin-top-5" style="padding-left:0">
+                        <button class="loginButton" type="submit">Giriş Yap</button>
+                    </div>
+                </div>
+            </form>
+                    </div>
+		<div style="position: relative; margin-top: 30px; border-radius: 5px; box-shadow: 0px 0px 20px #000;">
+            <style>
+                .dc-header{
+                    position: absolute;
+                    top: 25px;
+                    left: 70px;
+                    color: #ddd;
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+                .dc-message{
+                    position: absolute;
+                    right: 10px;
+                    bottom: 13px;
+                    color: #ddd;
+                    font-size: 12px;
+                }
+            </style>
+			<a href="https://discord.gg/cteyazilim" target="_blank" title="CTE Yazılım discord kanalında oyuncularla sohbete başlayın!">
+                <span class="dc-header">CTE Yazılım</span>
+                <img src="https://www.anka2.com.tr/assets/frontend/img/dc.jpg" alt="CTE Yazılım Discord">
+                <span class="dc-message">Şimdi sohbete başla</span>
+			</a>
+			<div class="clear"></div>
+		</div>
+        <div class="action-box">
+            <a href="https://www.anka2.com.tr/haberler" title="Haberler"><i class="fa fa-rss"></i>Haberler</a>
+            <a class="color" href="https://www.anka2.com.tr/oyun-kurallari" title="Oyun Kuralları"><i class="fa fa-minus-circle"></i>Oyun Kuralları</a>
+            <a class="color" href="https://www.anka2.com.tr/tanitim" title="Tanıtım" target="_blank"><i class="fa fa-star"></i>Tanıtım</a>
+            <a href="https://www.anka2.com.tr/rehber" title="Rehber"><i class="fa fa-question"></i>Rehber</a>
+            <div class="clear"></div>
+        </div>
+
+        <div class="list-table">
+            <h3 class="title"><i class="fa fa-user" aria-hidden="true"></i> <span id="topPlayerTitle">Oyuncu Sıralaması - Savaş Puanı</span></h3>
+            <btn class="status btn-info  col-xs-6 text-center topPlayerBtn active" data-type="battle">Savaş Puanı</btn>
+            <btn class="status btn-info col-xs-6 text-center topPlayerBtn" data-type="time">Oyun Süresi</btn>
+            <table id="topPlayersTBattle">
+                                                <tr>
+                    <td style="color:#ffe09d;">1</td>
+                    <td>Tokyo</td>
+                    <td>Lv. 250</td>
+                    <td><span class="status yellow col-xs-12 text-center">Chunjo</span></td>
+                </tr>
+                                                <tr>
+                    <td style="color:#ffe09d;">2</td>
+                    <td>YAY</td>
+                    <td>Lv. 250</td>
+                    <td><span class="status red col-xs-12 text-center">Shinsoo</span></td>
+                </tr>
+                                                <tr>
+                    <td style="color:#ffe09d;">3</td>
+                    <td>ALABORA</td>
+                    <td>Lv. 250</td>
+                    <td><span class="status blue col-xs-12 text-center">Jinno</span></td>
+                </tr>
+                                                <tr>
+                    <td style="color:#ffe09d;">4</td>
+                    <td>GURSEL</td>
+                    <td>Lv. 250</td>
+                    <td><span class="status yellow col-xs-12 text-center">Chunjo</span></td>
+                </tr>
+                                                <tr>
+                    <td style="color:#ffe09d;">5</td>
+                    <td>YELPAZE</td>
+                    <td>Lv. 250</td>
+                    <td><span class="status red col-xs-12 text-center">Shinsoo</span></td>
+                </tr>
+                            </table>
+            <table id="topPlayersTTime" class="display-none">
+                                                <tr>
+                    <td style="color:#ffe09d;">1</td>
+                    <td>BASKANBEY</td>
+                    <td>Lv. 250</td>
+                    <td><span class="status yellow col-xs-12 text-center">Chunjo</span></td>
+                </tr>
+                                                <tr>
+                    <td style="color:#ffe09d;">2</td>
+                    <td>UNALsavasci</td>
+                    <td>Lv. 250</td>
+                    <td><span class="status red col-xs-12 text-center">Shinsoo</span></td>
+                </tr>
+                                                <tr>
+                    <td style="color:#ffe09d;">3</td>
+                    <td>UNALsura</td>
+                    <td>Lv. 250</td>
+                    <td><span class="status blue col-xs-12 text-center">Jinno</span></td>
+                </tr>
+                                                <tr>
+                    <td style="color:#ffe09d;">4</td>
+                    <td>SinirliBiri</td>
+                    <td>Lv. 250</td>
+                    <td><span class="status blue col-xs-12 text-center">Jinno</span></td>
+                </tr>
+                                                <tr>
+                    <td style="color:#ffe09d;">5</td>
+                    <td>EZELBASKAN</td>
+                    <td>Lv. 250</td>
+                    <td><span class="status blue col-xs-12 text-center">Jinno</span></td>
+                </tr>
+                            </table>
+        </div>
+
+        <div class="list-table">
+            <h3 class="title"><i class="fa fa-users" aria-hidden="true"></i> Lonca Sıralaması</h3>
+            <table>
+                                                <tr>
+                    <td style="color:#ffe09d;">1</td>
+                    <td><a href="https://www.anka2.com.tr/lonca/CanimKendim" style="color:#fff;">CanimKendim</a></td>
+                    <td>Lv. 20</td>
+                    <td><span class="status blue col-xs-12 text-center">Jinno</span></td>
+                </tr>
+                                                <tr>
+                    <td style="color:#ffe09d;">2</td>
+                    <td><a href="https://www.anka2.com.tr/lonca/KUREKCI" style="color:#fff;">KUREKCI</a></td>
+                    <td>Lv. 20</td>
+                    <td><span class="status yellow col-xs-12 text-center">Chunjo</span></td>
+                </tr>
+                                                <tr>
+                    <td style="color:#ffe09d;">3</td>
+                    <td><a href="https://www.anka2.com.tr/lonca/TuborgGOLD" style="color:#fff;">TuborgGOLD</a></td>
+                    <td>Lv. 20</td>
+                    <td><span class="status blue col-xs-12 text-center">Jinno</span></td>
+                </tr>
+                                                <tr>
+                    <td style="color:#ffe09d;">4</td>
+                    <td><a href="https://www.anka2.com.tr/lonca/JOHPOH" style="color:#fff;">JOHPOH</a></td>
+                    <td>Lv. 20</td>
+                    <td><span class="status blue col-xs-12 text-center">Jinno</span></td>
+                </tr>
+                                                <tr>
+                    <td style="color:#ffe09d;">5</td>
+                    <td><a href="https://www.anka2.com.tr/lonca/KUREKCITAYFA" style="color:#fff;">KUREKCITAYFA</a></td>
+                    <td>Lv. 20</td>
+                    <td><span class="status yellow col-xs-12 text-center">Chunjo</span></td>
+                </tr>
+                            </table>
+        </div>
+
+        <!--
+        <div class="list-table">
+            <h3 class="title"><i class="fa fa-user-secret" aria-hidden="true"></i> Yönetici Listesi</h3>
+            <table>
+                <tr>
+                    <td>[TL]</td>
+                    <td>[GM]</td>
+                </tr>
+                <tr>
+                    <td>[TL]</td>
+                    <td>[GM]</td>
+                </tr>
+            </table>
+        </div>
+        -->
+
+        <div class="list-table">
+            <h3 class="title"><i class="fa fa-server" aria-hidden="true"></i> Server Durumu</h3>
+            <table>
+                <tr>
+                    <td class="border-right">Online</td>
+                    <td>2281</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</div>                        <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- End Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="https://www.anka2.com.tr/anasayfa">ANASAYFA</a></li>
+                    <li><a href="https://www.anka2.com.tr/kayit-ol">KAYIT OL</a></li>
+                    <li><a href="https://www.anka2.com.tr/indir">İNDİR</a></li>
+                    <li><a href="https://www.anka2.com.tr/iletisim">İLETİŞİM</a></li>
+                </ul>
+            </div>
+
+            <div class="copyright">
+                <p>Anka2 bir <a href="https://www.cteyazilim.com.tr/" target="_blank">CTE Yazılım</a> markasıdır. 2023 © Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+    <!-- begin modal -->
+    <div class="modal fade" id="generalModal" tabindex="-1" role="dialog" aria-labelledby="generalModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+    <!-- end modal -->
+        <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/tr_TR/sdk.js#xfbml=1&version=v3.3&appId="></script>
+</div>
+</body>
+    <!-- JS -->
+<script type="text/javascript" src="https://www.anka2.com.tr/assets/plugins/jquery/jquery-3.1.0.min.js?ver=0.4"></script>
+<script type="text/javascript" src="https://www.anka2.com.tr/assets/plugins/bootstrap-3.3.7/js/bootstrap.min.js?ver=0.3"></script>
+<script type="text/javascript" src="https://www.anka2.com.tr/assets/plugins/jquery-form/jquery.form.min.js?ver=0.4"></script>
+<script type="text/javascript" src="https://www.anka2.com.tr/assets/plugins/formvalidation/dist/js/framework/bootstrap.min.js?ver=0.3"></script>
+</html> 
